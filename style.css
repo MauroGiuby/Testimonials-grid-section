@@ -31,3 +31,16 @@
   */
 }
 
+body {
+  margin: 1.5rem; /* spazio esterno attorno al body, utile per non far aderire i contenuti ai bordi */
+  background-color: var(--white);
+  font-family: var(--family);
+  font-size: var(--font-size); 
+  min-height: 100vh; /* altezza minima pari all’intera finestra del browser */
+  display: grid; /* il body diventa un contenitore grid */
+  place-content: center; /* centra il contenuto della griglia sia in verticale che in orizzontale */
+  place-items: center; /* centra gli elementi figli della griglia */
+  gap: 3.5rem; /* spazio tra gli elementi della griglia */
+  line-height: 1.5; /* interlinea del testo per migliorare la leggibilità */
+  -webkit-font-smoothing: antialiased; /* migliora la resa dei font su browser WebKit (Safari, Chrome) */
+}
