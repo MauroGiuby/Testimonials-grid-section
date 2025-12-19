@@ -44,3 +44,26 @@ body {
   line-height: 1.5; /* interlinea del testo per migliorare la leggibilità */
   -webkit-font-smoothing: antialiased; /* migliora la resa dei font su browser WebKit (Safari, Chrome) */
 }
+
+h1 {
+  font-size: 15px;
+  font-weight: var(--font-weight-bold);
+}
+
+h2 {
+  font-size: 13px;
+  font-weight: var(--font-weight-semibold);
+}
+
+p {
+  font-size: 16px;
+  font-weight: var(--font-weight-bold);
+}
+
+/* ---main--- */
+
+.main-grid {
+  display: grid;
+  gap: 2rem;
+  max-width: 450px;
+}
