@@ -12,4 +12,22 @@
   --grey-500: hsl(217, 19%, 35%);
   --dark-blue: hsl(219, 29%, 14%);
   --black: hsl(0, 0%, 7%);
+  /* ## Typography */
+  /* ### Body Copy */
+  --font-size: 13px;
+  /* ### Fonts */
+--family: 'Barlow Semi Condensed', sans-serif;
+--font-weight-semibold: 500;
+--font-weight-bold: 600;
 }
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  /*
+  margin: 0;
+  padding: 0;
+  */
+}
+
