@@ -118,3 +118,42 @@ img {
   color: var(--black);
   background-color: var(--white);
 }
+
+.attribution { 
+  font-size: 11px; 
+  text-align: center; 
+}
+
+.attribution a { 
+  color: hsl(228, 45%, 44%); 
+}
+
+@media (min-width: 680px) {
+  .main-grid {
+    grid-template-rows: repeat(1, 2fr); /* la griglia passa a 2 colonne uguali */
+    max-width: 950px; /* larghezza massima del contenitore */
+  }
+}
+
+/* breakpoint grande: da 900px in su */
+@media (min-width: 900px) {
+  .main-grid {
+    grid-template-columns: repeat(3, 1fr); /* la griglia passa a 3 colonne uguali */
+    max-width: 1440px; /* larghezza massima del contenitore */
+  }
+
+  .card-karma {
+    grid-column: 2 / 3; /* posiziona la card-karma nella seconda colonna */
+  }
+
+  .card-supervisor {
+    grid-row: 1 / 3; /* la card-supervisor occupa dalla riga 1 alla riga 2 (due righe verticali) */
+    align-self: center; /* centra verticalmente la card nella sua area */
+  }
+
+  .card-calculator {
+    grid-row: 1 / 3; /* la card-calculator occupa due righe verticali */
+    grid-column: 3 / 4; /* posizionata nella terza colonna */
+    align-self: center; /* centrata verticalmente nella sua area */
+  }
+}
