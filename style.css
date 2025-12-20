@@ -60,10 +60,38 @@ p {
   font-weight: var(--font-weight-bold);
 }
 
+img {
+  border-radius: 2rem;
+}
+
 /* ---main--- */
 
 .main-grid {
   display: grid;
   gap: 2rem;
   max-width: 450px;
+}
+
+.article-Daniel {
+  border-radius: 0.5rem;
+  padding: 2rem;
+  box-shadow: 1px 6px 12px 0px rgba(0, 0, 0, 0.2);
+  color: var(--white);
+  background-color: var(--purple-500);
+}
+
+.article-Jonathan {
+  border-radius: 0.5rem;
+  padding: 2rem;
+  box-shadow: 1px 6px 12px 0px rgba(0, 0, 0, 0.2);
+  color: var(--white);
+  background-color: var(--grey-500);
+}
+
+.article-Jeanette {
+  border-radius: 0.5rem;
+  padding: 2rem;
+  box-shadow: 1px 6px 12px 0px rgba(0, 0, 0, 0.2);
+  color: var(--black);
+  background-color: var(--white);
 }
