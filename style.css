@@ -154,6 +154,7 @@ p {
     grid-template-columns: repeat(4, 1fr); /* 4 colonne uguali */
     gap: 2rem;
     max-width: 1440px;
+    margin: 0 auto; /* centra e blocca la larghezza non oltre i 1440px, come impostato */
   }
 
   /* DANIEL → 2 colonne */
