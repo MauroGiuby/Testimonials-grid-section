@@ -142,18 +142,22 @@ img {
     max-width: 1440px; /* larghezza massima del contenitore */
   }
 
-  .card-karma {
-    grid-column: 2 / 3; /* posiziona la card-karma nella seconda colonna */
+  .article-Daniel {
+    grid-row: 1 / 3; /* posiziona la card-karma nella seconda colonna */
   }
 
-  .card-supervisor {
+  .article-Jonathan {
     grid-row: 1 / 3; /* la card-supervisor occupa dalla riga 1 alla riga 2 (due righe verticali) */
     align-self: center; /* centra verticalmente la card nella sua area */
   }
 
-  .card-calculator {
+  .article-Jeanette {
     grid-row: 1 / 3; /* la card-calculator occupa due righe verticali */
     grid-column: 3 / 4; /* posizionata nella terza colonna */
     align-self: center; /* centrata verticalmente nella sua area */
+  }
+
+  .article-Patrick {
+
   }
 }
