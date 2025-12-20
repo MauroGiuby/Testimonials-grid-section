@@ -138,26 +138,39 @@ img {
 /* breakpoint grande: da 900px in su */
 @media (min-width: 900px) {
   .main-grid {
-    grid-template-columns: repeat(3, 1fr); /* la griglia passa a 3 colonne uguali */
-    max-width: 1440px; /* larghezza massima del contenitore */
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 colonne uguali */
+    gap: 2rem;
+    max-width: 1440px;
   }
 
+  /* DANIEL → 2 colonne */
   .article-Daniel {
-    grid-row: 1 / 3; /* posiziona la card-karma nella seconda colonna */
+    grid-column: 1 / 3; /* colonne 1 e 2 */
+    grid-row: 1 / 2;    /* prima riga */
   }
 
+  /* JONATHAN → 1 colonna */
   .article-Jonathan {
-    grid-row: 1 / 3; /* la card-supervisor occupa dalla riga 1 alla riga 2 (due righe verticali) */
-    align-self: center; /* centra verticalmente la card nella sua area */
+    grid-column: 3 / 4; /* colonna 3 */
+    grid-row: 1 / 2;    /* prima riga */
   }
 
+  /* KIRA → 1 colonna, alta 2 righe */
+  .article-Kira {
+    grid-column: 4 / 5; /* colonna 4 */
+    grid-row: 1 / 3;    /* occupa riga 1 e riga 2 */
+  }
+
+  /* JEANETTE → 1 colonna */
   .article-Jeanette {
-    grid-row: 1 / 3; /* la card-calculator occupa due righe verticali */
-    grid-column: 3 / 4; /* posizionata nella terza colonna */
-    align-self: center; /* centrata verticalmente nella sua area */
+    grid-column: 1 / 2; /* colonna 1 */
+    grid-row: 2 / 3;    /* seconda riga */
   }
 
+  /* PATRICK → 2 colonne */
   .article-Patrick {
-
+    grid-column: 2 / 4; /* colonne 2 e 3 */
+    grid-row: 2 / 3;    /* seconda riga */
   }
 }
