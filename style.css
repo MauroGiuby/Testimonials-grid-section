@@ -65,10 +65,22 @@ p {
   font-weight: var(--font-weight-bold);
 }
 
-img {
+.image-text {
+  display: flex;
+  align-items: center;
+  gap: 1rem; /* spazio tra immagine e testi */
+}
+
+.image-text img {
   border-radius: 2rem;
   padding: 1px;
   background-color: var(--white);
+}
+
+.image-text h1,
+.image-text h2 {
+  margin: 0;
+  line-height: 1.2;
 }
 
 /* ---main--- */
