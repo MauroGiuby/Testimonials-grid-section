@@ -95,3 +95,19 @@ img {
   color: var(--black);
   background-color: var(--white);
 }
+
+.article-Patrick {
+  border-radius: 0.5rem;
+  padding: 2rem;
+  box-shadow: 1px 6px 12px 0px rgba(0, 0, 0, 0.2);
+  color: var(--white);
+  background-color: var(--black);
+}
+
+.article-Kira {
+  border-radius: 0.5rem;
+  padding: 2rem;
+  box-shadow: 1px 6px 12px 0px rgba(0, 0, 0, 0.2);
+  color: var(--black);
+  background-color: var(--white);
+}
