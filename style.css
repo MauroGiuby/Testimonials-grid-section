@@ -33,7 +33,7 @@
 
 body {
   margin: 1.5rem; /* spazio esterno attorno al body, utile per non far aderire i contenuti ai bordi */
-  background-color: var(--white);
+  background-color: var(--grey-100);
   font-family: var(--family);
   font-size: var(--font-size); 
   min-height: 100vh; /* altezza minima pari all’intera finestra del browser */
@@ -101,7 +101,7 @@ img {
   padding: 2rem;
   box-shadow: 1px 6px 12px 0px rgba(0, 0, 0, 0.2);
   color: var(--white);
-  background-color: var(--black);
+  background-color: var(--dark-blue);
 }
 
 .article-Kira {
